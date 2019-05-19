@@ -3,7 +3,7 @@ header {
     top: 5px;
     left: 5px;
     right: 5px;
-    height: 20px;
+    height: 35px;
     background-color: lightblue;
     padding: 10px;
 }
@@ -12,7 +12,15 @@ header a {
     color: black;
     text-decoration: none;
     font-weight: normal;
+    vertical-align: center;
     margin: 10px;
+}
+
+a.rightnav{
+    float: right;
+}
+a.leftnav{
+    float: left;
 }
 
 a:hover {
@@ -28,4 +36,5 @@ main {
 #mainpic {
     width: 30%;
     float: left;
+    margin: 5px;
 }
